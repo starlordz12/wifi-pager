@@ -1,0 +1,12 @@
+name = "wifi-pager-webhook"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# HiveMQ cluster hostname (not secret). Replace with your cluster, e.g.
+# "xxxxxxxx.s1.eu.hivemq.cloud".
+[vars]
+HIVEMQ_HOST = "YOUR-CLUSTER.s1.eu.hivemq.cloud"
+
+# Secrets are NOT stored here. Set them once with:
+#   wrangler secret put HIVEMQ_USER
+#   wrangler secret put HIVEMQ_PASS
