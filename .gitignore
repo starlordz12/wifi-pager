@@ -1,0 +1,25 @@
+# --- Local secrets (copy firmware/src/config.example.h -> config.h) ---
+firmware/src/config.h
+
+# --- PlatformIO / build ---
+.pio/
+*.elf
+*.bin
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Cloudflare Wrangler ---
+node_modules/
+.wrangler/
+.dev.vars
+
+# --- OpenSCAD / EDA scratch ---
+*.bak
+pager.net
+
+# --- OS ---
+.DS_Store
+Thumbs.db
